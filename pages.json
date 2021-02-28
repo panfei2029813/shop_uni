@@ -1,33 +1,34 @@
 {
 	"pages": [{
             "path" : "pages/home/home",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-            }
+            "style" : {}
             
         }
         ,{
             "path" : "pages/cate/cate",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-            }
-            
+          "style" : {}
         }
         ,{
             "path" : "pages/cart/cart",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-            }
+            "style" : {}
             
         }
         ,{
             "path" : "pages/my/my",
+           "style" : {}
+            
+        }
+        ,{
+            "path" : "subpkg/goods_detail/goods_detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "subpkg/goods_list/goods_list",
             "style" :                                                                                    
             {
                 "navigationBarTitleText": "",
@@ -36,6 +37,10 @@
             
         }
     ],
+    "subPackages":[{
+      "root":"subpkg",
+      "pages":[]
+    }],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
 		"navigationBarTitleText": "草滩",
@@ -69,6 +74,5 @@
       }
     ]
     
-  }
-  
+  } 
 }

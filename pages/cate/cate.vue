@@ -1,6 +1,6 @@
 <template>
 	<view>
-		
+	
 	</view>
 </template>
 
@@ -9,11 +9,16 @@
 		data() {
 			return {
 				
-			}
+			};
 		},
-		methods: {
-			
-		}
+	  onLoad() {
+	    
+	  },
+	  methods:{
+	  
+      
+	  }
+	  
 	}
 </script>
 
