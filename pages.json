@@ -36,6 +36,7 @@
             }
             
         }
+        
     ],
     "subPackages":[{
       "root":"subpkg",
